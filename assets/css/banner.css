@@ -25,7 +25,8 @@ body, html {
     border-radius: 12px;
     padding: 30px;
     text-align: center;
-    width: 300px;
+    width: 400px;
+    height: 400px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
  
@@ -55,13 +56,33 @@ body, html {
 .login button[type="submit"]:hover {
     background-color: #0056b3;
 }
+.editHr{
+    /* margin-left: -160px;
+    margin-bottom: -36px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.editHr > h6{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4f4f4f;
+    flex-wrap: nowrap;
+}
+.editHr > hr{
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #e7e7e7;
+}
  
 /* Botões sociais */
 .sociais {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     margin-top: 10px;
+    
 }
  
 /* .social-button { 
@@ -78,8 +99,14 @@ body, html {
 }*/
 
 .sociais img {
-    width: 70px;
-    height: 40px;
+    /* width: 70px;
+    height: 40px; */
+    gap: 26px;
+    width: 68px;
+    height: 70px;
+    border-radius: 4px;
+    display: inline-block; /* Para os elementos ficarem na mesma linha */
+    padding: 10px;
 }
 
 
